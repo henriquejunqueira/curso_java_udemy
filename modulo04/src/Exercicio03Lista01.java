@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class Exercicio03Lista01 {
