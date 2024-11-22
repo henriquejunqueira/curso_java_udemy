@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947328145666",
+    "project_id": "lexi-cbb12",
+    "storage_bucket": "lexi-cbb12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947328145666:android:c0b5d10fc8a2edadad0a1b",
+        "android_client_info": {
+          "package_name": "com.henriquejunqueira.lexi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF15eqGMf1K_nl7tkVrANtF3UIJvn49_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".ui.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/us_flag"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Qual seu nível de inglês?"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnIniciante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            app:backgroundTint="@null"
+            android:layout_marginTop="16dp"
+            android:text="Iniciante"
+            android:textAllCaps="false"
+            android:textColor="@color/orange" />
+
+        <Button
+            android:id="@+id/btnIntermediario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            app:backgroundTint="@null"
+            android:layout_marginTop="16dp"
+            android:text="Intermediário"
+            android:textAllCaps="false"
+            android:textColor="@color/orange" />
+
+        <Button
+            android:id="@+id/btnAvancado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            app:backgroundTint="@null"
+            android:layout_marginTop="16dp"
+            android:text="Avançado"
+            android:textAllCaps="false"
+            android:textColor="@color/orange" />
+
+    </LinearLayout>
+</ScrollView>
