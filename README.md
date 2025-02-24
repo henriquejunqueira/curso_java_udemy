@@ -1,4 +1,4 @@
-# Reposítório para exercícios e projetos do curso Java COMPLETO Programação Orientada a Objetos + Projetos do Nélio Alves
+# Repositório para exercícios e projetos do curso Java COMPLETO Programação Orientada a Objetos + Projetos do Nélio Alves
 
 ### Conteúdo do curso
 
